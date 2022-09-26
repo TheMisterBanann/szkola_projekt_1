@@ -1,0 +1,95 @@
+body {
+    background-image: url("img/tlo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Abyssinica SIL', serif;
+}
+
+.logicn {
+    width:30px;
+}
+
+.div1 {
+    position: sticky;
+    background-color: black;
+    color: white;
+    padding-bottom: 5px;
+    line-height:50px;
+    margin: 0px 15px 0px 15px;
+}
+
+.menu {
+    display: inline;
+    position: sticky;
+
+}
+
+.menu li {
+    list-style: none;
+    display: inline;
+    float: right;
+    padding: 5px 15px 10px 10px;
+    font-size: 30px;
+    margin:0px;
+    padding-bottom: 5px;
+}
+
+.div1 h2 {
+    position: absolute;
+    display: inline;
+    text-align: center;
+    margin: 0px;
+    padding: 2px 5px 0px 10px;
+}
+
+.div2 {
+    width: 20%;
+    background-color: black;
+    color: white;
+    height: 450px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    margin-top: 60px;
+
+
+}
+
+.div2 p {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.button {
+    background-color: black;
+    border-color: white;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 9px;
+    transition: 0.5s;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+    border-color: darkgrey;
+}
+
+.div2 h1 {
+    padding-top: 50px;
+}
+
+.div3 {
+    width: 20%;
+    background-color: black;
+    color: white;
+    height: 200px;
+    text-align: center;
+}
+
+.div3 h1 {
+    padding-top: 30px;
+}
