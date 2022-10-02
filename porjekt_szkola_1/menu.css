@@ -1,0 +1,65 @@
+body {
+    background-image: url("main_page/img/tlo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Abyssinica SIL', serif;
+}
+
+
+.div1 h2 {
+    position: absolute;
+    display: inline;
+    text-align: center;
+    margin: 0px;
+    padding: 2px 5px 0px 10px;
+}
+
+
+.menu li:hover {
+    border-style: solid;
+    border-color: azure;
+    border-width: 0px 3px 0px 3px;
+    text-decoration: underline;
+    cursor:pointer;
+
+}
+
+
+.div1 {
+    position: sticky;
+    background-color: black;
+    color: white;
+    padding-bottom: 5px;
+    line-height:50px;
+    margin: 0px 15px 0px 15px;
+}
+
+.menu {
+    display: inline;
+    position: sticky;
+
+}
+
+.menu li {
+    list-style: none;
+    display: inline;
+    float: right;
+    padding: 5px 15px 10px 10px;
+    font-size: 30px;
+    margin:0px;
+    padding-bottom: 5px;
+}
+
+.menu img {
+    padding-top: 10px;
+}
+
+.menu a {
+    color:white;
+    text-decoration:none;
+}
+
+
+.logicn {
+    width:30px;
+}
