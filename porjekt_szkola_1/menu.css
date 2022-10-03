@@ -16,11 +16,10 @@ body {
 
 
 .menu li:hover {
-    border-style: solid;
-    border-color: azure;
-    border-width: 0px 3px 0px 3px;
     text-decoration: underline;
     cursor:pointer;
+    transition: 0.5s ;
+    transform-origin: left;
 
 }
 
@@ -31,7 +30,7 @@ body {
     color: white;
     padding-bottom: 5px;
     line-height:50px;
-    margin: 0px 15px 0px 15px;
+    margin: 0% 1% 0% 1%;
 }
 
 .menu {
@@ -62,4 +61,9 @@ body {
 
 .logicn {
     width:30px;
+}
+
+.div1 a {
+    color:white;
+    text-decoration:none;
 }
