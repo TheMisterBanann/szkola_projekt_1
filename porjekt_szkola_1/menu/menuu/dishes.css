@@ -1,0 +1,27 @@
+body {
+    height: 100%;
+    background-image: url("tlodan.jpg");
+    background-repeat: no-repeat;
+    font-family: 'Abyssinica SIL', serif;
+    background-attachment: fixed;
+
+}
+
+.takidiv {
+    text-align: center;
+}
+
+
+img {
+    width:40%;
+}
+
+h2 {
+    font-size:40px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 30px;
+    text-decoration: underline;
+}

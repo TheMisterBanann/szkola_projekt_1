@@ -1,0 +1,65 @@
+body {
+    background-image: url(tlo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.booking {
+    background-color:rgba(255,248,188,.7);
+    display: table;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 10%;
+    flex-basis: 0;
+    text-align: center;
+    float: left;
+}
+
+.booking input, .booking select {
+    width: 200px;
+    margin: 5px 20px 10px 20px;
+    height: 35px;
+    border: 1px;
+    border-style: solid;
+    background-color: #FFE7BF;
+    font-size: 15px;
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+.order {
+    position: absolute;
+    background-color:rgba(255,248,188,.8);
+    display: table;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    right:0%;
+    flex-basis: 0;
+    text-align: center;
+    margin-right: 10%;
+
+
+}
+
+.order input, .order select {
+    width: 200px;
+    margin: 5px 20px 10px 20px;
+    height: 35px;
+    border: 1px;
+    border-style: solid;
+    background-color: #FFE7BF;
+    font-size: 15px;
+}
+
+
+.booking input:hover, .booking select:hover, .order input:hover, .order select:hover {
+    border: 2px;
+    border-style: solid;
+    opacity:0.8;
+}
+
