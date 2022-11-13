@@ -1,0 +1,87 @@
+@font-face {
+    font-family: madefor;
+    src: url("../fonts/WixMadeforTextItalic.otf");
+
+    font-family: tak;
+    src: url("../fonts/JosefinSans-Light.ttf");
+
+    font-family: nie;
+    src: url("../fonts/WixMadeforTextRegular.otf");
+  }
+
+  body {
+    background-color: rgba(255,255,255,1);
+    font-family: madefor;
+  }
+
+  .menu ul, .menu a{
+    display: inline;
+    float: left;
+    list-style: none;
+    margin-right: 15px ;
+    text-align: center;
+  }
+
+  .imgmargin {
+    margin-right: 180px;
+  }
+
+
+  .menu {
+    text-align: center;
+    position: sticky;
+    top:0%;
+    background-color: white;
+    z-index: 1;
+  }
+
+  .menu2 {
+    margin-left: 20%;
+    background-color: white;
+    z-index: 1;
+  }
+
+  .carticn {
+    width:25px;
+  }
+
+  .menu h1 {
+    color: #FC8665;
+  }
+
+
+  .menu li{
+    font-weight: light;
+    font-size: 15px;
+    color: #3C4048;
+    transition: 0.4s;
+  }
+
+
+  .menu h3{
+    color: #3C4048;
+  }
+
+
+  .menu li:hover {
+    color: #FFDE00;
+    cursor: pointer;
+}
+
+
+
+.tak {
+    margin-top: 1000px;
+}
+
+.menu2 {
+  font-family: tak;
+  background-color: white;
+  padding-bottom: 50px;
+}
+.A {
+  height: 30px;
+}
+
+
+

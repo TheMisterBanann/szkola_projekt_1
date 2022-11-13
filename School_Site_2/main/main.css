@@ -1,0 +1,262 @@
+@font-face {
+    font-family: tak;
+    src: url("../fonts/JosefinSans-Light.ttf");
+}
+
+body {
+    position: relative;
+}
+
+
+
+.div_1 {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 1%;
+
+    height: 46em;
+    
+    /* tło */
+    background-image: url("../img/ramdomW_man.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.div_1-2 {
+    width: 40%;
+    color: white;
+    background-color: rgb(255, 190, 15);
+    height: inherit;
+    float: left;
+}
+
+
+
+.musze{
+    margin-top: 50%;
+}
+
+
+.div_1-2 hr {
+    border-style: solid;
+    border-color: white;
+    height: 0px;
+    border-width: 1px 0px 0px 0px;
+    width: 30%;
+    margin-left: 32%;
+
+}
+
+.div_1-2 h1 {
+    margin-left: 32%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.div_1-2 p {
+    margin-left: 32%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+
+.div_1 button {
+    border-radius: 0px;
+    background-color: white;
+    border: 0px;
+    width: 23%;
+    height: 6%;
+    margin-left: 32%;
+    font-family: arial;
+    font-weight: 500;
+    color: rgb(97, 96, 96);
+}
+
+.newsletter {
+    position: absolute;
+    text-align: center;
+    width: 60%;
+    margin-left:19.3%;
+    margin-top: 0px;
+    top: 900px;
+    background-color: white;
+    box-shadow: 10px 10px 5px #ddddddaa;
+    margin-bottom: 50px;
+
+}
+
+.mail {
+    width: 30%;
+    height: 30px;
+    border:1px solid black; 
+    margin-bottom: 0.5%;
+}
+
+.sub {
+    width: 11%;
+    height: 34px;
+    border:0px solid black; 
+    background-color: rgb(255, 190, 15);
+}
+
+
+.newsletter h1 {
+    color: rgb(78, 78, 78);
+}
+
+.newsletter p {
+    font-weight: 100;
+    color: rgb(78, 78, 78);
+}
+
+.shop img{
+    height: 353px;
+    width: 351px;
+}
+
+.shop {
+    position: absolute;
+    left: 10%;
+    margin-top: 15%;
+    width: 100%;
+    width: 80%;
+    text-align: center;
+
+} 
+
+.mimg {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.shop button {
+    width: 351px;
+    background-color: rgb(255, 190, 15);
+    border: 0px;
+    height: 40px;
+    font-family: tak;
+    font-size: 19px;
+    font-weight: 500;
+    margin-top: 0.5%;
+}
+
+.Lvideos {
+    margin-top: 670px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(78, 78, 78);
+}
+
+.thathr {
+    width: 7%;
+    border-top: 0px;
+    border-style: solid;
+    color: black;
+}
+
+.vid1 {
+    width: 900px;
+    height: 600px;
+    text-align: center;
+}
+
+.viddiv {
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.vid2 {
+    width: 450px;
+    height: 300px;
+
+}
+
+.seeall {
+    width: 10%;
+    background-color: rgb(255, 190, 15);
+    border: 0px;
+    height: 40px;
+    font-family: tak;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-left: 45%;
+    margin-bottom: 40px;
+}
+
+.followmy {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+.imgdiv img{
+    width: 225px;
+}
+
+.imgdiv {
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+.imgdiv2 img{
+    width: 160px;
+    margin-right:50px;
+    margin-left: 40px;
+}
+
+.imgdiv2 {
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+.yellowspace {
+    background-color: rgb(255, 190, 15);
+    width: 55%;
+    margin-left: 7.5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+    padding-bottom: 8%;
+    margin-bottom: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.ys1 {
+    float:left;
+    height: 100%;
+}
+
+.ys2 {
+    float:left;
+    height: 100%;
+}
+
+.ys3 {
+    height: 100%;
+}
+
+.ys2 input {
+    border: 1px 1px 1px 1px solid black;
+    display: table;
+    border-color: black;
+    height: 35px;
+    background: rgba(51, 170, 51,  0);
+    box-sizing: border-box;
+    color: rgb(55, 59, 77);
+    margin: 1px 1px 1px 1px;
+}
+
+textarea {
+    float:left;
+}
